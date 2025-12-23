@@ -1,2 +1,4 @@
-# Webmap #CODEX 01 - Membangun Webmap
-Tutorial Membangun Webmap
+# Webmap Development #CODEX
+[CODEX: **COD**ing **EX**perience]
+
+Tutorial membangun webmap sederhana yang menampilkan data [Overture Maps Foundation](https://overturemaps.org/) dengan menerapkan [Vite](https://vite.dev/), [React](https://react.dev/) (atau [Next.js](https://nextjs.org/)), [TailwindCSS](https://tailwindcss.com/), dan [OpenLayers](https://openlayers.org/).
