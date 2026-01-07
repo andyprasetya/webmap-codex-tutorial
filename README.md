@@ -113,3 +113,5 @@ $ npm install --global yarn
 ```
 
 Setelah instalasi `Yarn` selesai, *logout* dari *shell* / *terminal* Anda, dan *login* lagi. Anda sekarang sudah siap untuk tahap berikutnya, yaitu __project scaffolding__.
+
+## Selanjutnya: [Mengawali Proyek Next.js](https://github.com/andyprasetya/webmap-codex-tutorial/tree/feat/01-create-nextjs-project)
