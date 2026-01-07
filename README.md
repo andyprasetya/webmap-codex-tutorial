@@ -1,7 +1,7 @@
 # Webmap Development #CODEX
 [CODEX: **COD**ing **EX**perience]
 
-Tutorial membangun __*webmap*__ sederhana yang memuat dan menampilkan data [Overture Maps Foundation](https://overturemaps.org/), dengan menggunakan [Vite](https://vite.dev/), [React](https://react.dev/), [TailwindCSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/), dan [OpenLayers](https://openlayers.org/).
+Tutorial membangun __*webmap*__ sederhana yang memuat dan menampilkan data [Overture Maps Foundation](https://overturemaps.org/), dengan menggunakan [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/), dan [OpenLayers](https://openlayers.org/).
 
 ### Pengantar
 __*Webmap*__ (peta digital interaktif berbasis web), dari sudut-pandang pemanfaatannya, adalah sebuah solusi alternatif tepat-guna untuk pemecahan masalah di seputar bagaimana cara penyampaian dan visualisasi [data geospasial](https://en.wikipedia.org/wiki/Geographic_data_and_information).
