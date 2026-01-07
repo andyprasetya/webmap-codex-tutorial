@@ -18,4 +18,4 @@ Untuk memulai membangun *webmap* sederhana ini, Anda diasumsikan:
 - Memiliki pemahaman umum tentang aktivitas pemrograman komputer.
 - Memiliki pemahaman tentang lokasi geografis secara umum.
 
-### Selanjutnya: Instalasi __NVM__, __Node.js__, dan __Yarn__
+### Selanjutnya: [Instalasi __NVM__, __Node.js__, dan __Yarn__](https://github.com/andyprasetya/webmap-codex-tutorial/tree/feat/00-nvm-node-yarn)
