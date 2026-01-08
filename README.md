@@ -3,19 +3,19 @@
 
 Tutorial membangun __*webmap*__ sederhana yang memuat dan menampilkan data [Overture Maps Foundation](https://overturemaps.org/), dengan menggunakan [Next.js](https://nextjs.org/), [TailwindCSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/), dan [OpenLayers](https://openlayers.org/).
 
-### Pengantar
-__*Webmap*__ (peta digital interaktif berbasis web), dari sudut-pandang pemanfaatannya, adalah sebuah solusi alternatif tepat-guna untuk pemecahan masalah di seputar bagaimana cara penyampaian dan visualisasi [data geospasial](https://en.wikipedia.org/wiki/Geographic_data_and_information).
+### Integrasi [OpenLayers](https://openlayers.org/)
+Dalam membangun sebuah *webmap*, Anda akan membutuhkan *web-mapping library* yang berupa paling-tidak 1 atau kumpulan dari beberapa file JavaScript, dan file ini harus dimasukkan / diintegrasikan dengan proyek Anda. Hingga saat ini (tahun 2025), sudah terdapat cukup banyak *web-mapping library* yang bisa kita dapatkan di Internet secara bebas seperti contohnya [Leaflet.js](https://leafletjs.com), [Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/overview), [OpenLayers](https://openlayers.org/), [ArcGIS Maps SDK for JavaScript](https://developers.arcgis.com/javascript/latest/), [HERE Maps API](https://www.here.com/developer/javascript-api), [MapBox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides/), dan lain sebagainya.
 
-Sedikit menyinggung tentang data geospasial, *webmap* tentu saja memiliki kemampuan untuk menampilkan data geospasial bertipe [raster](https://datacarpentry.github.io/organization-geospatial/01-intro-raster-data.html) maupun [vektor](https://datacarpentry.github.io/organization-geospatial/02-intro-vector-data.html), yang selama ini sudah umum diolah menggunakan *software* GIS berbasis desktop seperti [QGIS](https://qgis.org/), [GRASS](https://grass.osgeo.org/), [SAGA](https://saga-gis.sourceforge.io/en/index.html), [ArcGIS](https://www.esri.com/en-us/arcgis/geospatial-platform/overview), [ERDAS IMAGINE](https://hexagon.com/products/erdas-imagine), [CARTO](https://carto.com/), dan lain sebagainya.
+*Web-mapping library* tersebut sebelumnya pasti memiliki kelebihan dan kekurangannya masing-masing, mulai dari *availability* dan metode akuisisinya (*proprietary* atau *opensource*, atau bahkan berbayar), fitur, *library handling*, hingga *learning curve*-nya.
 
-Dari sudut-pandang pengguna-akhir (*end-user*) *webmap*, yang menjadi perbedaan antara *webmap* dan *software* GIS adalah:
-- __Aspek kemudahan akses__: sekali *webmap* kita jadi dan di-*publish* ke Internet, maka *webmap* tersebut akan dengan mudah diakses oleh semua orang dengan hanya menggunakan *browser* Internet seperti Mozilla Firefox, Google Chrome atau Microsoft Edge, yang *notabene* sudah umum terpasang di desktop, laptop, atau smartphone.
-- __Aspek interaktivitas__: bergantung pada kreativitas pengembangnya, sebuah *webmap* dapat memiliki fitur-fitur interaktif bagi pengguna-akhir (*end-user*)-nya.
+Pada proyek ini Anda akan menggunakan [OpenLayers](https://openlayers/org/).
 
-### Asumsi dan Peralatan
-Untuk memulai membangun *webmap* sederhana ini, Anda diasumsikan:
-- Menggunakan OS Linux, terutama Ubuntu Linux Desktop versi 24.04 LTS. Tidak tertutup kemungkinan untuk penggunaan OS lain seperti Windows atau MacOS. Yang terpenting adalah Anda bisa menggunakan text editor dan [Node.js](https://nodejs.org/en).
-- Memiliki pemahaman umum tentang aktivitas pemrograman komputer.
-- Memiliki pemahaman tentang lokasi geografis secara umum.
+Untuk menambahkan OpenLayers ke dalam proyek Anda, pada *command shell* eksekusi *command* (asumsi: proyek sedang tidak dijalankan, atau jika sedang berjalan, Anda bisa menghentikannya dulu sementara dengan menekan `Ctrl + C`.)
+```shell
+
+yarn add ol
+```
+
+Catatan: Alasan teknis mengapa menggunakan OpenLayers dapat Anda baca [di sini](https://www.google.com/search?q=why+i+use+openlayers) (red.: subjektif)
 
 ### Selanjutnya: [Instalasi __NVM__, __Node.js__, dan __Yarn__](https://github.com/andyprasetya/webmap-codex-tutorial/tree/feat/00-nvm-node-yarn)
